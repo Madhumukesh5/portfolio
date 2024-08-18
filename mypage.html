@@ -1,0 +1,299 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>MY PAGE</title>
+        <style>
+            main{
+                text-align: center;
+                background:linear-gradient(180deg,rgb(191, 224, 243),rgb(106, 152, 211),rgb(132, 138, 224));
+                overflow: hidden;
+            }
+            h1{
+                text-align: center;
+            }
+            h2{
+                text-align: left;
+            }
+            .edu{
+                border:10px double black;
+                padding-left: 20px;
+                padding-right: 20px; 
+                box-shadow: 5px 5px 5px black;
+                
+            }
+            .edu1{
+                border:10px double black;
+                box-shadow: 5px 5px 5px black;
+                width: 95%;
+                min-height: 300px;
+                padding-left: 20px;
+                padding-right: 20px;
+                #background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAn1BMVEX6+/3///9FRkhGRkZAQECKioo9PkD5+vxERESOjo/09fdCQ0XU1df7+/s1NznCw8XLzM45OTiBgYHp6uyZmpwzNDbf4OJnZ2esra7n6OpbXF4yMjLw8fPDw8IxNDJERkRUVFRzc3O3uLpVVVViY2WysrQnKSsvMDNMTEweHyIlJimmpqZ7fH7Q0dNsbG+dnJwmJiUXGRwAAAAPERUkISa+w4XEAAAM0klEQVR4nO2dCX+qOhOHGYIksgmCC4hHBBdate259/3+n+2dCWJd2krPudLWX/53ESmGPIbJzCQBNU1JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJ6QeLa8D5V1fitrJ2905YrEvthJFr94UcD/RBDACve0Cz4J4QQ0/X2VO00xDSBfw/X7JV/tW1+i8VeowxYQRGfxq6bup3jYCJBK5/8McI25AZhiDISYD/GgR8Z4TMGEfJBCErIaN9b4STECAejybYhsGk2ETG/RHG+IodzdDZORbA2LxPQnSDmnQa90tInp5e7pEwcOgarZ08LO+OUGeePR9TXAMu/hfP7XsjZNLlT5Jnfzj0sUsVzF7cGWEZkJ8nl4/+QpQsWPfujDDw8z6GbYKVsjFFlN4ToCREG3R3UTFBsc7UBfeeUgsi/BWDS74Q0pCf5FH3ISIMkXCvu2o9kgs9kwV5TXhfyb0U9NAdzn5N7+7SrIWAjKGnmEzvdMANehPMB6MAEe/KAx4EvYGg5ptOmEAn/8lG/II25xpYDXQ4HgF1AnQJUX+NY7jWpBj4CkSIzAbKwldAnQBdQtT1QY0YFk2K6X7BZQ35ZIbSr8jbQAU4eTW/4zcw9q4VQVovW0eEocdmQRB4V7R2QNv3opMcqouW04XKqlYEZ32tCBR+U8OWETnPbD2YOte0C4GIegPpI16/H0KsbBHC3dVS0I3apfV+bW4h6Jh0AV6XPBhrKG3w8PGqu9nbYoNSxgPd7LfZiBzyATPnR1X+4Fi8Jj1B16RLQzMEjb0N2aKkbtRHctiazGvRFDkMJ6VoetnU/YocXYun+TQGON3dQG6JvnT451X+rHiG53OahF6c144eD4ZpIoeBE2mRdXfTKIADJ2CibM0nQh8zhE2zbx9668rRI+12Uo3li8nWqm2x4RCGC+OAmduWrlM0Qt1oZoR7R4/5Elre3GQiCMQkEMx8ggrxyPV/LBfmhu7lrSCiEbKGRlg5PunbubvBLj/zsafxC3MWPNM3VNliw2TKas8UCzLCRkceO3rL1O3EAqB4djGbBal26vqvC79Zlt3eK3LoGw2N8MTRQ+7R/DY5Bw7hr1lQ9f3HfvFqcWiKxvbmU+LkCdEIGx1aZxPyTde253W/iTZldGQZlS027G5ga9zcK7oUjjJmNehl8ApEwDW2YEX4ZBjR/vvnsDHEqCKUrl86jQZnJ6+IAWqjPu4P5broCQOn0Tn8E48Oc4aE+z/BsyEO18He9Tc5OwzJK7q3JJRGOL4WikqocF05+vqTUcCSOkaDhTDqjI/vw/Bw/+ZjLdEUbxmgYk6I3Zk/nU57HyiWEctwcDRuSF1KUKeEHLB5TzONgA2kH4D4o4LxvH7BWHAzU+RaOJGLC66lhWlNmB5dUGRDtgO0hmaoC1Ye/cVNAzQv2kw/LJdOTBWYxLca0wCfTnA9H3cqQt0LTz5M4VvXiZ3uRJw5iNTTK8Lh+lrh8iu+2VBdRWhfUx/eIEQLe14zZlRraAbRSR0PhNC/Wrq4NaFomvVeEGqwnCBciZgTtKTjlOJA2CQbvjWh0bCrvrhKqRXD5xJNqYzCM+/3SnhVriu+LaHcC2mcAvawd0t4Ia5xK+XfkJB/2g7fk2UhZNzMDnmLhJBHz8/RO9q91Ze+B4hNiDLrvnT3XqEomf62Rdhbmca7I/Cr8IzwtHVPdlg85RaPyz1huPpgZP8xb48QNgGto0DvhB5YSMlVMgZt6B4Ncx8IuRZPa+325ewOe4YWtqE1LGxJiJmLjsUcyhNykeZshhvk6GmCoC1CzEXLOSljrJAb6OaSeR83zgm14SCotZaTGLBZH/aYcWpZVlweEcriFmJ/AoxDs/0JMORvkxDzO1LHwCSBtBAYELsuuEZFqNWEciRDjrAxGkSmPVub3pa00+vxMOWxqVPkzYkwoLVgkAcikeU+G5hLkJ5E+4SuHNJAQpoxS7AC2BquZdiDkzaUhHjV4T/ilRDfFQkyeznHT4UDJISqDQOLilsSIW1IQtoYtUxonBJqkJTZ0kotzTIKzCCw2lhZJMTq50iIPT2HiBXbPWEWgWtZkBR6D1ILUq/UHULFD5lkmXxpVqu/ITIpH0TCJ2G2a4ezPeFsn8o+lWaOhBBmeuZoaFxOWXohTd/2Mtum6WK+Ke25jE+3id0lHl7qZU96fL3wHDrWoa+lItRrQhnJc3iyv5bQSjLZhjw0Ex0rm1rOOhnE1FHmdkaEqRXpyZanNG+FbYiEKU8SJESesCxLx6UPlbpJXY+V71edfhtCiy8yj+yQYxtic6SpbMMhTeT3zAQJU65FhYmEnAjLLjEDdqGyDfFrGVRtWNo6BgCWtfS+A6HsS2eyL+Uwt82lixFYWujeTvo43TaHVoo9TZnYGmLwKLPnFaG+J9ST7IhQXtp2hheCpcmVwyRJKPvStglZMR6PN+OREE/4shknhdHHHZsNOu+qstiXDskye3oiIE1dN8rqNqwILSiL8qINMypt0xeCTjAez4UYyY2ibX9YDddQzIGhTBBkLEuKoAgMbLCqssMyMWOyzJ5eCOTB5pCECNTPRAS0ayEuCcvMKLJMsCwr9yeoztRuTKNhti4Ook2jKAVL0M0Vib0ekpPANixlX5qXidhNfd/vFOacWpf3sb13uMPHr6MitCUhtxzdFGXBDMTE9j06B2ky1loj5LwzOhcGVtXLYoPOL6U2JH+Y8l6JAVdJ7YzeglOo3ZfTbJjsF6VH/lDDvnSAvRJ+MeOjop7OztCnWfLWMuCr+WEVtdFME03PYPiMIc2MYhrcszXle/pfNeaW7mOaBuV+xxzfejJme+kyddR2er3DGMnZsm+Y4zc49pA9uZgEVtrP/XHQDnuqIamfTdhE35Hwqr38IeE3sUPOtef+u9ouPzFOc0YI+fb9gp9bHImCfHLmq45E/vCE8Hq/eyCM1+a75cqR8vbGaQwKZVDV8MzJxvkoBuzG78uXXU1NSB9iRl2efBX1Br60HJdmUdTtRgsmRlE3iqKSiTnuibrinNBZee+Pn63kiMcroaeLLhUzF6yMaGOEodIz7npuOy41zsdpEmEu6dU1zwhpFEO3RTVvJGym0+Bc9c7Wda93TmjKq1rm+KRn8zBO0372pB1lwJBg9iRT4bcIWXIQK8XRG2ZeEpLXPNx3+W0y4GuEh44lDdgkPbwr74ZQ7OfzXQiRMD68uytC94LQ/eaEb42X0oZlXBLq9qFG8u68Q3mlfkn4XcZL3x7zpr70rwm/x5j3JmBlBwOpDnaHidxAfzjCjU6fPL72F4SCArQOusHqBAvGig4W28na9Yc092QYtm3S6g9DHMU04m8ItWru6TWUkXNOs31M0+rcU7428aQUlNDJTaMWvTcf4z8mjFfmaXlHr+Yqb40QQ8lxt9N9R53eSW7xKULovV9sV07NtTUS9Yn88FOE32cev8Gxf0Z4VYrw76QIT479sYSi4RrkY0K7JnQvCL16RLjx/YW3b8MPe7sjxVhrmSf5nq6/Zk+e/it8zZ6IEGVRGzYt+NaE7D1/da6+wQzp3OaY1796tXqvlM7sebVXN/pNC775ClqjqS7Gkk72XoxjfaLc4NP3ujeW89K4HrfUS7N7kj4vjGTyznfQ8mZ351+9G6It3QZPSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSektvTEH/ea0NL/Y/iE/mSCfiVxvV0sK+duVr362q7WK/WcCSB3HkqtMYegP6UmKPK7u8rLi6jbLWEouyw93DkJyq9r1dbX+jKzt74eHxzFwcMqHhwdauwZJIYl7/1TPWMpW+Id/lgDhEx67GgP4D48PD7/XX1z1RuJasR6Hw84/OQzXmZ86o5UPMJI/zAX+Y/Wc/WTk7OiR9Knu5eGw/68P/nrp4L6vrn0TwfhRLlbbAcy9lJ4EWZaXhPNq3UhX3rwGMci//JCFJPCkV/XksJKP0kXk+IIw8eVzQPVF9eNP+JfVBvf4X1nzpsIrkCA419KHSN5/33scVoTugXBhvKwe8dqc9LGlTcOOwPcGj48P5U9oRNia1ROfNVhXzxTaPIYHwpfaDuVT2iErAKbjcdDFNqQ+6Ef4Q+g90M9CaGML+mtaNWqZibRDEhHSNVnZIcK/TGljgoQP0g5/AiKH7WPf9xf/9iC1B8tdrhPnqOjl+RSmv57zfBmjHU7xdai5i5do589XG9itoxz1EwhRG+/377IHlhtv//e/h9EQPeNivVo9ZjB9Wa1WaH/FL9z4l55/1kXPyHLqS1f4j/fVVW8odOTp/sYSLebVz1lUiwrh7FUeG8oflf1hyw75p/qMH3JpHusHVllJSUlJSUlJSUlJSUlJSUlJSUlJ6e71f7NtZ0E3VUt/AAAAAElFTkSuQmCC");
+                background-size: 100%;
+            }
+            .edu2{
+                border:10px double black;
+                width: 40%;
+                padding: 10px;
+                margin-left: 10%;
+                margin-top:5%;
+                margin-bottom: 5%;
+                box-shadow: 5px 5px 5px black;
+            }
+
+            .edu1 img:hover{
+                opacity: 1.0;
+            }
+            .bgi{
+                background-image: url("https://img.freepik.com/free-photo/document-marketing-strategy-business-concept_53876-124278.jpg");
+            }
+            .cname{
+                text-align: left;
+                width: 600px;
+                max-width: 700px;
+            }
+            .eng{
+                display:inline-flex;
+                width:100%;
+                justify-content: space-between;
+            }
+            .eng1{
+                display:inline-flex;
+                width:100%;
+                justify-content: space-between;
+                 
+            }
+            .cname1{
+                text-align: center;
+                width: 5px;
+            }
+            .eng1 p{
+                text-align: center;
+                width: 200px;
+            }
+
+            .all{
+                display:inline-flex;
+                justify-content: space-between;
+                min-width: 50%;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+        <h1>MEESALA SRI SAI MADHU MUKESH</h1>
+        <div>
+            <h2 class="shadow1">INTERNSHIP</h2>
+            <div class="edu">
+                <div class="eng">
+                    <p>@</p>
+                    <P>
+                        2024/07-2024/05
+                    </P>
+                    <p class="cname">
+                        <b>Chat-GPT/Generative AI</b><br>
+Indian Institute of Digital Technologies - Blackbuck Engineers<br>
+I gained a comprehensive understanding of the principles and applications of Generative AI
+technologies.
+                    </p>
+                </div>
+
+
+                <div class="eng">
+                    <p>@</p>
+                    <P>
+                        2023/11-2023/09
+                    </P>
+                    <p class="cname">
+                        <b>AI-ML VIRTUAL INTERNSHIP</b><br>
+                        AICTE - Edu Skills supported by AWS Academy<br>
+                        Understanding of AI and ML fundamentals, as well as the ability to apply these concepts to
+                        real-world problems.
+                        
+                    </p>
+                </div>
+
+                <div class="eng">
+                    <p>@</p>
+                    <P>
+                        2023/09–2023/07
+                    </P>
+                    <p class="cname">
+                        <b> DSA- JAVA INTERNSHIP
+                        </b><br>
+                        HENOTIC IT SOLUTIONS PVT LTD, Hyderabad<br>
+                        Worked on a project titled Hospital Management System incorporating
+DSA- Java under supervision of a mentor.
+                        
+                    </p>
+                </div>
+                
+            </div>        
+            <h2>PROJECTS</h2>
+            <div class="edu">
+                <div class="eng">
+                    <p>@</p>
+                    <p>
+                        2023/11-2023/09
+                    </p>
+                    <p class="cname">
+                        <b> DEEP FAKE DETECTION</b><br>
+                        Machine Learning<br>A machine learning model to accurately detect deep fake media. The system uses
+Convolutional Neural Networks (CNNs) to analyze both spatial and temporal features
+in images.          </p>
+                </div>
+
+                <div class="eng">
+                    <p>@</p>
+                    <p>
+                        2023/09–2023/07
+                    </p>
+                    <p class="cname">
+                        <b> Hospital Management System</b><br>
+                        Data Structure and Algorithms - JAVA | Henotic Solutions pvt Ltd.<br>
+The Hospital Management System employs a robust set of data structures and
+algorithms to optimize patient management, medical record keeping, and
+operationalefficiency, integrated with secure database management and userfriendly interfaces like Oracle and PHP.
+                    </p>
+                </div>
+
+                <div class="eng">
+                    <p>@</p>
+                    <p>
+                        2023/02-2022/12
+                    </p>
+                    <p class="cname">
+                    <b> E-karT</b><br>
+                    HTML , CSS and Java Script (JS)<br>
+                    I've crafted a feature-rich shopping website utilizing HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+
+            </div>
+
+            <div>
+
+                <h2>EDUCATION</h2>
+                <DIV class="edu1">
+                    <div class="eng1">
+                    <p class="cname1">
+                        <b>COLLEGE NAME</b>
+                    </p>
+                    <p>
+                        <b>SPECIALIZATION</b>
+                    </p>
+                    <p>
+                        <b>COMPLETION YEAR</b>
+                    </p>
+                    <P>
+                        <B>GRADE</B>
+                    </P>
+                    </div>
+
+                    <div class="eng1">
+                        <p class="cname1">
+                            SAGI RAMAKRISHNAM ENGINNERING COLLEGE
+                        </p>
+                        <p>
+                            CSE
+                        </p>
+                        <p>
+                            2025
+                        </p>
+                        <p>
+                            8.06
+                        </p>
+                        </div>
+
+
+                        <div class="eng1">
+                            <p class="cname1">
+                                SASI ENGINNERING COLLEGE
+                            </p>
+                            <p>
+                                MPC
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                            <p>
+                                94.8%
+                            </p>
+                        </div>
+
+                        <div class="eng1">
+                            <p class="cname1">
+                                SRI CHAITANYA EM SCHOOL
+                            </p>
+                            <p>
+                                10th GRADE
+                            </p>
+                            <p>
+                                2019
+                            </p>
+                            <p>
+                                10.0
+                            </p>
+                            </div>
+                </DIV>
+
+            </div>
+            
+            <br>    
+
+        <div class="all">
+            <div>
+                <div class="edu2">
+                    <p><B>SKILLS</B></p>
+                    <div class="cname">
+                        <p><b>* Programming Languages</b></p>
+                        <p>C, C++, JAVA, Python</p>
+                    </div>
+
+                    <div class="cname">
+                        <p><b>* Web technologies</b></p>
+                        <p>HTML ,CSS , JavaScript</p>
+                    </div>
+
+                    <div class="cname">
+                        <p><b>* Databases</b></p>
+                        <p>SQL</p>
+                    </div>
+
+                    <div class="cname">
+                        <p><b>* Deep learning</b></p>
+                        <p>Convolutional Neural Networks</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="edu2">
+                    <p><B>CERTICATES</B></p>
+                    <div class="cname">
+                        <p><b>* CISCO</b></p>
+                        <p>Introduction to Networks - Nov 2023</p>
+                    </div>
+
+                    <div class="cname">
+                        <p><b>* Hexart.In</b></p>
+                        <p>AI foundation - Jan 2024</p>
+                    </div>
+
+                    <div class="cname">
+                        <p><b>* PANTECH</b></p>
+                        <p>E-LEARNING AI - May 2023</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </main>
+
+        
+
+    </body>
+</html>
